@@ -23,6 +23,22 @@ public class Main3 {
         //Aufgabe 5
         //fi + Autovervollständigung, Str + Autovervollständigung, STRG+ALT+L -> Strichpunkt wird zurückgeschoben
         final String bezeichner;
-    }
+
+        //Aufgabe 6
+        // \" für doppelte Anführungszeichen, \' für einfache Anführungszeichen
+        System.out.println("Jave verwendet für Strings \"doppelte Anführungszeichen\" " +
+                           "und einzelne Anführungszeichen wie \'c\' um einzelne Zeichen zu definieren");
+
+        // \\ für Backslash
+        System.out.println("Durch \\ kann man auch den Backslash selbst beliebig oft ausgeben: \\\\\\\\");
+
+        // \b Backspace \n Newline \t Tabulator
+        System.out.println("Ich verwende den\b Backspace, die Newline\n und den \tTabulator");
+
+        //\r überschreibt die bestehende Zeile - \f erzwingt Seitenumbruch
+        System.out.println("Durch den Wagenrücklauf wird die Zeile zurückgesetzt und der Teil nach dem" +
+                "\r überschreibt die bestehende Zeile. \f ist in der Konsole nicht bemerkbar" +
+                ", da es einen Seitenumbruch erzwingt");
+        }
 
 }
